@@ -1,4 +1,4 @@
 liminjun.github.io
 ==================
 
-My Person Blogs.
+My Personal Blogs.
