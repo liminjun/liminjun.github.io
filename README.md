@@ -8,3 +8,4 @@ My Personal Blogs.
 参考网址：
 https://pages.github.com/
 
+http://jekyllrb.com/docs/quickstart/
