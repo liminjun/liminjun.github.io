@@ -1,11 +1,18 @@
-liminjun.github.io
-==================
+### 我的博客
 
-My Personal Blogs.
+地址：[http://yansu.org](http://yansu.org)
 
-如何在GitHub创建自己的个人主页。比如我的github账号叫liminjun,我如何创建一个liminjun.github.io的站点来展示自己的信息。比如自我介绍、教育和培训经验、工作经验等。github称之为GitHub Pages。可以为用户或者项目创建一个这样的网站。而且通过配置和搭建，可以配置为一个博客，而且可以绑定域名。是不是很棒，那么你也赶紧创建一个主页吧。来展示自己
+### 安装说明
 
-参考网址：
-https://pages.github.com/
+1. fork库到自己的github
+2. 修改名字为：`username.github.io`
+3. clone库到本地，参考`_posts`中的目录结构自己创建适合自己的文章目录结构
+4. 修改CNAME，或者删掉这个文件，使用默认域名
+5. 修改`_config.yml`配置项
+6. It's done!
 
-http://jekyllrb.com/docs/quickstart/
+### 分支说明
+
+- 三栏布局（master分支）
+- 单栏布局（first-ui分支）
+
