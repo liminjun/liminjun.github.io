@@ -1,0 +1,159 @@
+/*css reset*/
+body,ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:visited {
+	color: #42628f;
+}
+p {
+	margin: 0.5em 0.25em;
+}
+h1 {
+	font-size: 1.75em;
+	border: solid #594846;
+	border-width: 2px 0;
+	padding: 0.25em;
+	text-align: center;
+	font-variant: small-caps;
+}
+h2 {
+	text-align: center;
+	font-variant: small-caps;
+}
+dl {
+	margin: 0 0.5em;
+}
+dt {
+	font-weight: bold;
+	margin: 0.5em 1em 0.5em 0;
+	border-bottom: 1px dashed #7b96bc;
+}
+.intro {
+	font-size: 1.15em;
+	line-height: 1.3em;
+	text-align: justify;
+	margin: 0.5em;
+	font-weight: bold;
+}
+.navigation {
+	background-color:#7b96bc;
+	border-bottom: 2px solid #594846;
+}
+.navigation ul li {
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 0.5em 0;
+}
+.navigation li a {
+	color: #f9f3e9;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+.header p {
+	margin-left: -1000px;
+}
+#points ul {
+	list-style-image: url('images/point.png');
+	margin: 0.5em 0 1em 0.5em;
+	padding-left: 1em;
+}
+#points ul li {
+	margin: 0.5em 1em;
+}
+.footer {
+	background-color: #7b96bc;
+	color: #f9f3e9;
+	text-align: center;
+	padding: .5em 0;
+	font-style: italic;
+}
+
+body {
+	margin: 0 auto;
+	background: #f9f3e9;
+	color: #594846;
+	font: 100% "Times New Roman", "Microsoft Yahei", "Times New Roman", serif;
+}
+a, a:visited {
+	color: #42628f;
+}
+p {
+	margin: 0.5em 0.25em;
+}
+h1 {
+	font-size: 1.75em;
+	border: solid #594846;
+	border-width: 2px 0;
+	padding: 0.25em;
+	text-align: center;
+	font-variant: small-caps;
+}
+h2 {
+	text-align: center;
+	font-variant: small-caps;
+}
+dl {
+	margin: 0 0.5em;
+}
+dt {
+	font-weight: bold;
+	margin: 0.5em 1em 0.5em 0;
+	border-bottom: 1px dashed #7b96bc;
+}
+#main img{
+	width: 100%;
+}
+body,.header,.navigation,.footer{
+	width: 100%;
+}
+.navigation ul li{
+	width: 25%;
+}
+#visit,#points,#main{
+	width: 100%
+}
+@media screen and (min-width: 480px){
+	
+	.header,.navigation,.footer{
+		clear: both;
+	}
+	.column{
+		margin: 10px 10px 0 0;
+
+	}
+	.navigation{
+		min-height: 36px;
+	}
+
+	
+	.header{
+		background: url(images/w.png) no-repeat 0 0;
+		height: 200px;
+	}
+
+	#visit{
+		width: 25%;
+		float: left;
+	}
+	#points{
+		width: 25%;
+		float: right;
+	}
+	#main{
+		margin: 10px 27% 0 26%;
+		width: 460px;
+	}
+}
+/*media query*/
+/*小于481像素的时候执行下面的样式*/
+@media screen and (max-width: 480px){
+
+	.column{
+		margin: 10px 0;
+		border-bottom: 1px dashed #7b96bc;
+	}
+	
+}
