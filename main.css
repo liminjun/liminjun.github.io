@@ -73,7 +73,7 @@ dt {
 
 body {
 	margin: 0 auto;
-	background: #f9f3e9;
+	/*background: #f9f3e9;*/
 	color: #594846;
 	font: 100% "Times New Roman", "Microsoft Yahei", "Times New Roman", serif;
 }
@@ -114,6 +114,11 @@ body,.header,.navigation,.footer{
 }
 #visit,#points,#main{
 	width: 100%
+}
+@media screen and (min-width:1366px){
+	body{
+		width: 960px;
+	}
 }
 @media screen and (min-width: 480px){
 	
