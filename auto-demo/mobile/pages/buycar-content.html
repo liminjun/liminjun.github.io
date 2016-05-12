@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>低价购车内容</title>
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+</head>
+<body style="background:#fff;">
+<div class="logo-banner"><img src="../images/car-red.jpg" width="100%"/></div>
+<div class="car-info">
+    <div class="base-info">
+       <div class="base-info-show">
+           <h3>2014款 宝马520Li 典雅型</h3>
+           <p class="discount">Polo GTI 购车享7.8折优惠 再送赛车礼包 油卡等好礼</p>
+           <p class="adrs">您当前所在城市：<span>苏州市</span></p>
+       </div>
+       <a class="btn buy-soon">立即购买</a>
+    </div>
+    <!--汽车价格对比 S-->
+    <div class="compare-dif cf">
+        <div class="price-item choose">
+            <p class="prize">￥<span>360</span>万</p>
+            <p class="brand">车林通净价</p>
+        </div>
+        <div class="price-item">
+            <p class="prize">￥<span>360</span>万</p>
+            <p class="brand">厂商指导价</p>
+        </div>
+        <div class="price-item">
+            <p class="prize">￥<span>360</span>万</p>
+            <p class="brand">当地4s店报价</p>
+        </div>
+    </div>
+    <!--汽车价格对比 E-->
+    <!--操作面板 S-->
+    <div class="action-panel">
+       <ul class="cf">
+          <li><a>更多车款</a></li>
+          <li><a>在线咨询</a></li>
+          <li><a>购车计算</a></li>
+       </ul>
+       <p>
+           <i class="red-radius"></i><span class="tip-item">真实报价</span>
+           <i class="red-radius"></i><span class="tip-item">4s店提车</span>
+           <i class="red-radius"></i><span class="tip-item">全国联保</span>
+       </p>
+       <p>品牌专业顾问与您一对一专属服务：<span class="font-red">400-828-8080</span></p>
+    </div>
+    <!--操作面板 E-->
+</div>
+<!--周边城市价钱对比 S-->
+<div class="different-city-price">
+    <h2>根据您的定位，显示周边城市报价</h2>
+    <div class="different-city">
+        <div class="car-info-container">
+            <span class="car-company">（石家庄）车林通净车格</span>
+        </div>
+        <div class="price-container">
+            <span class="price-text"><em class="font-red">35.4</em>万</span>
+            <a class="btn buy-soon">立即抢购</a>
+        </div>
+    </div>
+    <div class="different-city">
+        <div class="car-info-container">
+            <span class="car-company">（苏州）车林通净车格</span>
+        </div>
+        <div class="price-container">
+            <span class="price-text"><em class="font-red">35.4</em>万</span>
+            <a class="btn buy-soon">立即抢购</a>
+        </div>
+    </div>
+    <div class="different-city">
+        <div class="car-info-container">
+            <span class="car-company">（上海）车林通净车格</span>
+        </div>
+        <div class="price-container">
+            <span class="price-text"><em class="font-red">35.4</em>万</span>
+            <a class="btn buy-soon">立即抢购</a>
+        </div>
+    </div>
+</div>
+<!--周边城市价钱对比 E-->
+<!--汽车信息列表 S-->
+<div class="car-info-detail">
+    <div class="detail-tab-title">
+        <ul class="clearfix">
+            <li  class="active"><a href="javascript:void(0)">购车说明</a></li>
+            <li><a href="javascript:void(0)"> 汽车参数</a></li>
+            <li><a href="javascript:void(0)">实拍图片</a></li>
+            <li><a href="javascript:void(0)">购买记录</a></li>
+        </ul>
+    </div>
+    <div class="detail-tab-content">
+        <div class="tab-content-item active">这是第一个tab</div>
+        <div class="tab-content-item">这是第二个tab</div>
+        <div class="tab-content-item">这是第三个tab</div>
+        <div class="tab-content-item">这是第四个tab</div>
+    </div>
+</div>
+<!--汽车信息列表 E-->
+<script src="../js/zepto.min.js"></script>
+<script>
+    $(function(){
+       $(".detail-tab-title").find("li a").click(function(){
+           $(this).parent().addClass("active").siblings("li").removeClass("active");
+           var index = $(this).parent().index();
+           $(".tab-content-item").eq(index).addClass("active");
+           $(".tab-content-item").eq(index).siblings(".tab-content-item").removeClass("active");
+       });
+    })
+</script>
+</body>
+</html>

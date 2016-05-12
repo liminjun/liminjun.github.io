@@ -119,6 +119,7 @@ body,.header,.navigation,.footer{
 	body{
 		width: 960px;
 	}
+	
 }
 @media screen and (min-width: 480px){
 	
@@ -151,6 +152,11 @@ body,.header,.navigation,.footer{
 		margin: 10px 27% 0 26%;
 		width: 460px;
 	}
+	.col-sm-4{
+		width: 25%;
+		float: left;
+	}
+	
 }
 /*media query*/
 /*小于481像素的时候执行下面的样式*/
@@ -160,5 +166,7 @@ body,.header,.navigation,.footer{
 		margin: 10px 0;
 		border-bottom: 1px dashed #7b96bc;
 	}
-	
+	.col-sm-4{
+		width: 100%;
+	}
 }

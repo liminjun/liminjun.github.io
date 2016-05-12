@@ -1,0 +1,417 @@
+body{
+	width: 100%;
+	background: #fff;
+	color: #a5a5a5;
+    min-width: 1200px;
+}
+.inner-width { 
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	width: 0;
+	height: 0;
+	display: table;
+	clear: both;
+	visibility: hidden;
+}
+.nav {
+	background: #e43c3f;
+	height: 45px;
+}
+.nav-list {
+	width: 100%;
+}
+.nav-list li {
+	float: left;
+}
+.nav-list li.active {
+	background: #ca3134;
+}
+.nav-list li:first-child {
+	width:240px;
+}
+.nav-list li:first-child a {
+	padding: 0px 0px 0px 15px;	
+
+}
+.nav-list li a {
+	display: block;
+	height: 45px;
+	padding: 0 20px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.icons {
+	background: url("../images/icons.png") no-repeat;
+}
+.home-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-position: 0px 0px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.home-span {
+	vertical-align: middle;
+	color: #fff;
+}
+/*车林通中央会员模块 样式*/
+
+#member-intro {
+	text-align: center;
+	padding:25px 0px 45px;
+}
+.desc {
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-bottom: 25px;
+	line-height: 1.2;
+}
+.member-power {
+	width: 412px;
+	float: left;
+	text-align: left;
+	padding: 10px 0px 0px 40px;
+}
+.member-help {
+	width: 370px;
+	float: right;
+	padding: 35px 80px 0px 0px;
+}
+.member-power h3 {
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.member-power h3 span {
+	margin-left: 10px;
+	color: #a5a5a5;
+	font-weight: normal;
+}
+.power-list {
+	margin-left: -10px;
+}
+.power-list li {
+	float: left;
+	margin: 0px 0px 20px 10px;
+	width: 170px;
+	height: 40px;
+	padding: 10px 15px;
+	background: url("../images/member-bg.png") no-repeat;
+}
+.power-list li h4 {
+	font-size: 18px;
+	color: #e43c3f;
+}
+.power-list li p {
+	font-size: 12px;
+}
+.help-list {
+	font-size: 12px;
+	text-align: left;
+}
+.help-list:first-child {
+	margin-bottom: 45px;
+}
+.help-list h3 {
+	color: #707070;
+	font-weight: bold;
+}
+.help-list p {
+	line-height: 1.8;
+}
+.member-banner {
+	width: 240px;
+	height: 90px;
+	padding-top: 150px;
+	background: url("../images/member-icon.png") no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+/*会员申请模块 样式*/
+#vip-apply {
+	background: #fafafc;
+	position: relative;
+	padding: 25px 0px 45px 0px;
+}
+#vip-apply h2.section-title{
+    text-align: center;
+    background-image:url(../images/apply-title-bg.png);
+    width: 440px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 20px;
+}
+#vip-apply:before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #fafafc;
+	position: absolute;
+	left: 50%;
+	top: -15px;
+	margin-left: -20px;
+}
+#vip-apply:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #fff;
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	margin-left: -20px;
+}
+.member-item {
+    width: 354px;
+    height: 259px;
+    padding:0 40px;
+    color: #fff;
+}	
+.member-item h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 50px auto 20px 0px;
+}	
+.member-item p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.web-member {
+    background:#faaf5e url(../images/top-bg-register.png) no-repeat;
+    float: left;
+    margin-left: 120px;
+}
+.center-member {  
+    background:#5d82ff url(../images/top-bg-apply.png)  no-repeat;
+    float: right;
+    margin-right: 120px;
+}
+#btn-register {
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin: 35px auto;
+    line-height: 40px;
+    color: #fff;
+    background-color: #f68835;
+    text-align: center;
+    font-size: 14px;
+    
+}
+#btn-apply-vip {
+    border-radius: 3px;
+    text-decoration: none;
+    display:block;
+    margin: 35px auto;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #4063da;
+    text-align: center;
+    font-size: 14px;
+}
+/*汽车介绍section*/
+.section-title {
+	width: 274px;
+	height: 60px;
+	margin: 0px auto 20px;
+	background: url("../images/item-icon.png") no-repeat 0 center;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	color: #595959;
+    
+}
+#recommend-section {
+    margin-bottom: 100px;
+    padding-top: 25px;
+}
+#recommend-section .desc {
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-bottom: 15px;
+    text-align: center;
+}
+#cars-gallery {
+    width: 1200px;
+    margin: 0 auto;
+	height:480px;
+    overflow: hidden;
+}
+#cars-gallery .car-text {
+    background-color: #dedee9;
+}
+#cars-gallery li {
+    list-style-type: none;
+    float: left;
+    height: 240px;
+}
+#cars-gallery .large-car {
+    position: relative;
+}
+#cars-gallery .car-image {
+    position: absolute;
+    top: 0;
+}
+#cars-gallery .car-hide-text {
+    position: absolute;
+    top:240px;
+}
+#cars-gallery .large-car .car-hide-text {
+    width: 480px;
+    height: 240px;
+    background-color: #dedee9
+}
+#cars-gallery .car-hide-text {
+    width: 240px;
+    height: 240px;
+    background-color: #dedee9;
+}
+#cars-gallery .small-car {
+    width: 240px;
+    position: relative;
+}
+#cars-gallery .car-text {
+    height: 240px;
+    
+}
+#cars-gallery .car-text-black {
+    background-color: #323232;
+}
+#cars-gallery .car-text-black h2 {
+    color: #fff;
+}
+#cars-gallery .car-text-black p
+{
+    color:#9a9a9a;
+}
+#cars-gallery .large-car {
+    width: 480px;
+}
+#cars-gallery .car-text h2 {
+    padding:35px 0 0 25px;
+}
+#cars-gallery .car-text p {
+    padding-left: 25px;
+}
+
+#cars-gallery .car-hide-text h2 {
+    padding:35px 0 0 25px;
+}
+#cars-gallery .car-hide-text p {
+    padding-left: 25px;
+}
+/*轮播样式*/
+#slides {
+      display: none;
+      position: relative;
+      width: 100%;
+      height: 400px;
+      margin: 0 auto;
+    }
+#slides .slide-item img {
+    /*width: 100%;*/
+}
+
+#slides .slidesjs-navigation {
+    margin-top:5px;
+}
+
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+  position: absolute;
+  bottom: 16px;
+  z-index: 1000;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 20px;
+  height: 0;
+  padding-top: 20px;
+  background-image: url(../images/icons.png);
+  background-position: 0 -30px;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -50px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -50px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}

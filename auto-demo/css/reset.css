@@ -1,0 +1,44 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    color: #a5a5a5;
+    font-family:"Microsoft YaHei","Segoe UI",Tahoma,Helvetica,Sans-Serif,"宋体";
+} 
+h1, h2, h3, h4, h5, h6, p, pre, 
+blockquote, ul, ol, dl, address { 
+    margin: 0; 
+    padding: 0; 
+} 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+:focus { 
+    outline: 0; 
+} 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+table { 
+    border-collapse: separate; 
+    border-spacing: 0; 
+} 
+
+a img, iframe { 
+    border: none; 
+} 
+ol, ul { 
+    list-style: none; 
+} 
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+    content: " "; 
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
