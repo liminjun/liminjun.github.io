@@ -1,0 +1,21 @@
+{
+  "name": "liminjun.github.io",
+  "version": "1.0.0",
+  "description": "My Personal Blogs.\r 支持PC和Mobile自适应平台的个人首页。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liminjun/liminjun.github.io.git"
+  },
+  "keywords": ["liminjun","bage88","个人主页","中国移动苏州研发中心","Angular","前端开发","Firebase"],
+  "author": "liminjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liminjun/liminjun.github.io/issues"
+  },
+  "homepage": "https://github.com/liminjun/liminjun.github.io#readme"
+}
