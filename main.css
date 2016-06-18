@@ -115,6 +115,10 @@ body,.header,.navigation,.footer{
 #visit,#points,#main{
 	width: 100%
 }
+.avatar{
+	width: 263px;
+	text-align: center;
+}
 @media screen and (min-width:1366px){
 	body{
 		width: 960px;
@@ -160,12 +164,25 @@ body,.header,.navigation,.footer{
 /*media query*/
 /*小于481像素的时候执行下面的样式*/
 @media screen and (max-width: 480px){
-
+	.navigation ul{
+		height: 40px;
+	}
 	.column{
 		margin: 10px 0;
 		border-bottom: 1px dashed #7b96bc;
 	}
 	.col-sm-4{
+		width: 100%;
+	}
+	.footer .image-bae{
+		width: 40%;
+		display: inline-block;
+	}
+	.footer .image-firebase{
+		width: 50%;
+		display: inline-block;
+	}
+	.footer img{
 		width: 100%;
 	}
 }
