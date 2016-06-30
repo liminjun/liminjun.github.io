@@ -1,0 +1,12 @@
+<h3>all books</h3>
+<div class="media" ng-repeat="book in ctrl.books">
+    <div class="media-left">
+        <a ui-sref="detail({bookId:book.id})">
+            <img ng-src="{{book.cover}}" alt="{{book.name}}">
+        </a>
+    </div>
+    <div class="media-body">
+        <p>{{book.name}}</p>
+        <i>{{book.price}}</i>
+    </div>
+</div>
