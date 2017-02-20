@@ -5,9 +5,7 @@ angular.module('app').component('home',{
         categories:'='
     },
     controller:function(rootRef){
-        rootRef.on('value',function(){
-            console.log("connected");
-        });
+     
 
         this.createExpense=function(expenseData){
             this.expensesInOrder.$add(expenseData);

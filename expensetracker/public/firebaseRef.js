@@ -1,4 +1,4 @@
-angular.module('app').factory('fbRef',function(rootRef,auth){
+angular.module('app').factory('fbRef',['rootRef','auth',function(rootRef,auth){
     return {
         getPreferencesRef:function(){
             return rootRef.child('preferences').child(auth.$getAuth().uid);
@@ -10,4 +10,4 @@ angular.module('app').factory('fbRef',function(rootRef,auth){
             return rootRef.child('expenses').child(auth.$getAuth().uid);
         }
     }
-});
+}]);
