@@ -1,0 +1,149 @@
+.heart {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    float: left;
+}
+
+.heart:before {
+    position: absolute;
+    content: "";
+    left: 100px;
+    top: 0;
+    width: 100px;
+    height: 160px;
+    background: red;
+    -moz-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100px;
+    height: 160px;
+    background: red;
+    left: 0;
+    -moz-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.heart-text {
+    height: 180px;
+    z-index: 1000;
+    color: white;
+    line-height: 180px;
+    position: absolute;
+    top: -20px;
+    width: 200px;
+    text-align: center;
+}
+
+#send-form {
+    clear: both;
+}
+
+form input {
+    border: 1px solid rgba(160, 160, 159, 1);
+    height: 80px;
+    line-height: 40px;
+    width: 100%;
+}
+
+#btn-submit {
+    left: 50%;
+    margin-left: -100px;
+}
+
+button:disabled{
+    background-color: red;
+}
+
+.qrcode {
+    width: 300px;
+}
+
+
+/*音乐*/
+
+.off {
+    background-image: url(../assets/images/normalmusic.svg);
+    background-size: contain;
+}
+
+#audio_btn {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 200;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+#audio_btn,
+.off {
+    background-repeat: no-repeat;
+}
+
+.btn-rotate
+{
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+.rotate {
+    -webkit-animation: rotating 1.2s linear infinite;
+    -moz-animation: rotating 1.2s linear infinite;
+    -o-animation: rotating 1.2s linear infinite;
+    animation: rotating 1.2s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotating {
+    from {
+        -moz-transform: rotate(0)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
