@@ -349,7 +349,7 @@ h1 {
     * --------------------------------------- */
 
 #section2.load-background {
-    background-image: url(http://liminjun-wedding.bj.bcebos.com/page2.png);
+    background-image: url(./images/page2.png);
 }
 
 
@@ -405,7 +405,7 @@ h1 {
 	* --------------------------------------- */
 
 #section0 {
-    background-image: url(./assets/images/welcome.png);
+    background-image: url(./images/welcome.png);
     background-size: cover;
     background-attachment: fixed;
 }
