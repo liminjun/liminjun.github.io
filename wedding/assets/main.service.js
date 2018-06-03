@@ -5,7 +5,7 @@ app.factory('appService',['$http',function($http){
         getMessageList: function(){
             return $http({
                 //url:AppConfig + "/api/messages",
-                url:"/data/wish.list.json",
+                url:"./data/wish.list.json",
                 method:"GET"
             });
         },

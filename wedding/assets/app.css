@@ -405,7 +405,7 @@ h1 {
 	* --------------------------------------- */
 
 #section0 {
-    background-image: url(http://liminjun-wedding.bj.bcebos.com/welcome.png);
+    background-image: url(./assets/images/welcome.png);
     background-size: cover;
     background-attachment: fixed;
 }
